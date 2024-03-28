@@ -1,0 +1,10 @@
+let a = prompt("Pulni kiriting:");
+let bilet = 500;
+let m_xona = 250;
+let muze = 120;
+let bilet_sum = bilet * 11000.34;
+let m_xona_sum = m_xona * 11000.34;
+let muze_sum = muze * 12354.03;
+let harajat = bilet_sum + m_xona_sum + muze_sum;
+let qoldiq = a - harajat;
+let j = (qoldiq >= 0) ?prompt( "Oq yo'l, Alisher!") : prompt ("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
